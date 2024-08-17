@@ -78,6 +78,9 @@ To get started with **My Todo App**, follow these steps:
 - **Advanced Task Management**: Integrating task categories, priorities, and notifications.
 - **Mobile Optimization**: Further optimizing the app for mobile devices with additional responsive design adjustments.
 
+##Live Preview
+https://mytodo-hh47.onrender.com/
+
 ## Contributing
 
 Contributions are welcome! If you have suggestions or find issues, please open an issue or submit a pull request. Follow the [contributing guidelines](CONTRIBUTING.md) for more details.
