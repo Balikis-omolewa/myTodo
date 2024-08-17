@@ -1,0 +1,127 @@
+*{ padding: 0; margin: 0; box-sizing: border-box;}
+.app {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 60px auto;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+h1{ text-align: center
+  ;}
+  .center{
+    text-align: center !important;
+  }
+  .task-form {
+    display: block;
+  }
+.task-form input {
+  width: 100%;
+  max-width: 550px !important;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-wrap: break-word;
+  margin-bottom: 20px;
+}
+.task-form textarea {
+  width: 100%; 
+  max-width: 550px;
+  height: 100px; 
+  padding: 10px; 
+  box-sizing: border-box; 
+  font-size: 15px; 
+  line-height: 1.5; 
+  border: 1px solid #000;
+  border-radius: 8px;
+  resize: none;
+  overflow-wrap: break-word;
+  overflow-y: visible;
+}
+.task-form button{
+  width: 100%;
+  max-width: 550px !important;
+  padding: 15px;
+  border: none;
+  outline: none;
+  margin: 0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #9280ff;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+.list-text{
+  display: flex; justify-content: space-between; align-items: center; margin-top: 15px;
+}
+p{
+  color: #fff; font-weight: 400; font-size: 16px;
+}
+.task-item {
+  background-color: #fff;
+  width: 100%;
+  max-width: 550px;
+  overflow-wrap: break-word;
+  margin: 10px 0;
+  padding: 17px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.task-item.completed {
+  background-color: rgb(176, 245, 176); 
+  position: relative;
+  font-display: inline-block;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+.action-btn{
+  margin-top: 20px; display: flex; justify-content: flex-end; align-items: center;
+}
+.action-btn button{
+  border: none; background: transparent; font-size: 15px; color: #fff; font-weight: 400; padding: 8px; 
+  border-radius: 8px; background-color: #7a65ff;
+  ;
+}
+.save{ 
+  background-color: #9fd158 !important; justify-self: flex-end; max-width: 100px; 
+  padding: 8px !important; float: right; font-size: 15px !important;
+}
+.action-btn .color{
+  color: #fff; font-size: 15px; background-color: #f46868;
+}
+button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.task-list-container {
+  position: relative;
+  padding: 10px;
+  background-color: #9280ff;
+}
+
+
+.show-more-button {
+  cursor: pointer;
+  transition: color 0.3s; 
+
+  &:hover {
+    font-size: 17px;
+  }
+}
+
+.task-list {
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+}
+.modal-title{
+  text-align: center; font-size: 22px; color: #9280ff; font-weight: 600;
+}
+.modal-body{
+   font-size: 15px; color: #0b0b0b; font-weight: 400; overflow-wrap: break-word; margin-bottom: 30px;
+}
