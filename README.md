@@ -36,7 +36,7 @@ To get started with **My Todo App**, follow these steps:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/my-todo-app.git
+   git clone https://github.com/Balikis-omolewa/myTodo/
    ```
 
 2. **Navigate to the Project Directory**
@@ -71,8 +71,6 @@ To get started with **My Todo App**, follow these steps:
 ### 4. **Dynamic Content Display**
    - Implementing features like "Show More" for tasks and ensuring the UI updates dynamically as tasks are added, edited, or deleted required thorough testing and optimization.
 
-### 5. **UI/UX Consistency**
-   - Achieving a consistent and user-friendly design across different devices and screen sizes involved iterative design and testing to ensure a responsive and intuitive user experience.
 
 ## Future Improvements
 
