@@ -9,15 +9,15 @@ Welcome to **My Todo App**, a modern and intuitive task management application d
    - Includes a call-to-action button to transition to the login form.
 
 <h2>User Authentication</h2><br/>
-   - **Login Form**: Allows users to create an account and log in with their name and email.
+   - Login Form: Allows users to create an account and log in with their name and email.
    - User data is stored in local storage for session management.
 
 <h2>Task Management</h2><br/>
-   - **Add Tasks**: Users can add tasks with a title, description, and due date.
-   - **Edit Tasks**: Update existing tasks with new details, including the start date and due date.
-   - **Delete Tasks**: Remove tasks with a confirmation prompt.
-   - **Mark Tasks as Completed**: Toggle the completion status of tasks.
-   - **Preview Tasks**: View detailed information about tasks in a modal.
+   - Add Tasks: Users can add tasks with a title, description, and due date.<br/>
+   - Edit Tasks: Update existing tasks with new details, including the start date and due date.<br/>
+   - Delete Tasks: Remove tasks with a confirmation prompt.<br/>
+   - Mark Tasks as Completed**: Toggle the completion status of tasks.<br/>
+   - Preview Tasks: View detailed information about tasks in a modal.
 
 ### 4. **Task Filtering**
    - **Pending Tasks**: View tasks that are yet to be completed.
