@@ -25,7 +25,7 @@ function App() {
     if (user) {
       setScreen("main"); // If user is already logged in, go directly to the main screen
     } else {
-      setTimeout(() => setScreen("login"), 3000); // Show splash screen for 3 seconds, then move to login
+      setTimeout(() => setScreen("login"), 5000); // Show splash screen for 5 seconds, then move to login
     }
   }, [user]);
 
