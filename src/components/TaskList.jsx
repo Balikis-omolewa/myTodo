@@ -32,7 +32,7 @@ function TaskList({ tasks, updateTask, deleteTask }) {
                 View More <IoIosArrowForward />
               </p>
             )}
-            <p>Pending Tasks</p>
+            {/* <p>Pending Tasks</p> */}  <p>Not Done Tasks</p>
             <ul className="task-list">
               {pendingItemsToShow.map((task) => (
                 <TaskItems key={task.id} task={task} updateTask={updateTask} deleteTask={deleteTask} />
@@ -49,7 +49,7 @@ function TaskList({ tasks, updateTask, deleteTask }) {
                 View More <IoIosArrowForward />
               </p>
             )}
-            <p>Completed Tasks</p>
+            {/* <p>Completed Tasks</p> */}  <p>Done Tasks</p>
             <ul className="task-list">
               {completedItemsToShow.map((task) => (
                 <TaskItems key={task.id} task={task} updateTask={updateTask} deleteTask={deleteTask} />
